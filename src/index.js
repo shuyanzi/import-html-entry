@@ -182,7 +182,7 @@ export default function importHTML(url, opts = {}) {
 				},
 			}));
 		}));
-};
+}
 
 export function importEntry(entry, opts = {}) {
 	const { fetch = defaultFetch, getTemplate = defaultGetTemplate } = opts;
